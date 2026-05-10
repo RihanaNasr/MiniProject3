@@ -639,6 +639,7 @@ The system demonstrates industry‑relevant skills in distributed data processin
 ---
 
 **Screenshot 7 –  Graphs**  
+
 <img width="1500" height="900" alt="image" src="https://github.com/user-attachments/assets/26a19cd5-4c59-4bf2-881d-6d33cae624bb" />
 
 <img width="1500" height="750" alt="image" src="https://github.com/user-attachments/assets/e787dbcb-ce58-4653-b46a-f40e02d3a559" />
