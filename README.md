@@ -639,52 +639,49 @@ The system demonstrates industry‑relevant skills in distributed data processin
 
 ---
 
-## Appendix: Screenshots
-
-*Insert your screenshots in the marked areas below.*
+## Appendix:
 
 ---
 
 **Screenshot 1 – Model Training Output**  
-![Model Training](screenshot_training.png)
 
----
-
-**Screenshot 2 – Kafka Producer Running**  
-![Kafka Producer](screenshot_producer.png)
-
----
-
-**Screenshot 3 – Streaming App Active (Waiting for data)**  
-![Streaming Active](screenshot_streaming_active.png)
+<img width="547" height="540" alt="Screenshot 2026-05-10 231743" src="https://github.com/user-attachments/assets/0aa92a4f-de40-4d16-87a0-4919d20defa4" />
 
 ---
 
 **Screenshot 4 – Trending Items & Alerts**  
-![Trending & Alerts](screenshot_alerts.png)
+
+
+<img width="547" height="540" alt="Screenshot 2026-05-10 231743" src="https://github.com/user-attachments/assets/0430c72d-e0c2-4eab-9706-83180814e3bc" />
+
+<img width="745" height="255" alt="Screenshot 2026-05-10 233522" src="https://github.com/user-attachments/assets/8512ae26-8679-417c-9c12-3bea6cb5211a" />
+
+<img width="745" height="613" alt="Screenshot 2026-05-10 233531" src="https://github.com/user-attachments/assets/4a6c2009-4f75-4722-b66c-26d7986615da" />
 
 ---
+
 
 **Screenshot 5 – Dynamic Recommendations**  
-![Recommendations](screenshot_recommendations.png)
+
+<img width="720" height="712" alt="Screenshot 2026-05-10 205002" src="https://github.com/user-attachments/assets/7dec1d83-087e-4064-9bfa-193cdb7b972f" />
 
 ---
 
-**Screenshot 6 – Final System (All Terminals)**  
-![Full System](screenshot_full_system.png)
+**Screenshot 7 –  Graphs**  
+<img width="1500" height="900" alt="image" src="https://github.com/user-attachments/assets/26a19cd5-4c59-4bf2-881d-6d33cae624bb" />
+
+<img width="1500" height="750" alt="image" src="https://github.com/user-attachments/assets/e787dbcb-ce58-4653-b46a-f40e02d3a559" />
+
+
+<img width="1200" height="900" alt="image" src="https://github.com/user-attachments/assets/4925a9a4-e1cb-4a21-8ac8-edbc5c61f407" />
+
+
+<img width="900" height="900" alt="image" src="https://github.com/user-attachments/assets/b1cf97d2-9e7b-466b-94b4-71c8d0524886" />
 
 ---
 
-**Screenshot 7 – Generated Graphs**  
-![Top 10 Trending](top10_trending.png)  
-![Rating vs Interactions](rating_vs_interactions.png)  
-![Trend Over Time](trend_over_time.png)  
-![Alert Pie Chart](alert_pie.png)
-
----
-
-**Report prepared by:** [Your Name]  
-**Student ID:** [Your ID]  
-**Date:** 2026-05-10
+**Report prepared by:** Bosy Ayman - Rihanna Nasr
+**Student ID:** 202202076
+**Date:** 2026-05-8
 
 ---
