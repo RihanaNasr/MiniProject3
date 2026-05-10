@@ -640,20 +640,74 @@ The system demonstrates industry‑relevant skills in distributed data processin
 
 **Screenshot 7 –  Graphs**  
 
+### Graph 1: Top 10 Trending Items
+
 <img width="1500" height="900" alt="image" src="https://github.com/user-attachments/assets/26a19cd5-4c59-4bf2-881d-6d33cae624bb" />
+
+
+**Calculation:** `trending_score = interactions × avg_rating` (custom metric)
+
+**Key Observations:**
+- **Item 608** ranks first with a trending score of **32.0**, resulting from 7 interactions and an average rating of 4.57.
+- **Item 1136** ranks second with a score of **28.0** (6 interactions, 4.67 avg rating).
+- Items 457 and 3751 share similar scores (22.0), each with 5 interactions and average ratings of 4.4.
+
+**Interpretation:**  
+Items that appear at the top of this chart are the most "trending" in the current real‑time window – they combine high popularity (many interactions) with strong user satisfaction (high average rating). This metric helps identify content that should be promoted immediately.
+
+
+---
+
+## 4.6 Graph 3: Trending Score Over Time
+
 
 <img width="1500" height="750" alt="image" src="https://github.com/user-attachments/assets/e787dbcb-ce58-4653-b46a-f40e02d3a559" />
 
+*Figure 3: Line chart showing how the trending score of a representative item (e.g., Item 608) evolves across consecutive windows*
+
+**Key Observations:**
+- The trending score fluctuates as new interactions arrive in each sliding window.
+- An **upward slope** indicates growing momentum for the item.
+- A **downward slope** suggests fading interest.
+- Sharp spikes correspond to bursts of activity (e.g., several ratings arriving close together).
+
+**Interpretation:**  
+Monitoring trending score over time allows the system to detect **rising trends before they peak**. This enables proactive interventions – e.g., pushing a trending item to the homepage, sending a notification, or adjusting recommendations in real time. The 30‑second window and 10‑second slide provide near‑immediate feedback while smoothing out random noise.
+
+---
+
+## 4.5 Graph 2: Rating vs. Interactions (Scatter Plot)
 
 <img width="1200" height="900" alt="image" src="https://github.com/user-attachments/assets/4925a9a4-e1cb-4a21-8ac8-edbc5c61f407" />
 
+*Figure 2: Scatter plot of average rating versus number of interactions per item per 30‑second window*
 
-<img width="900" height="900" alt="image" src="https://github.com/user-attachments/assets/b1cf97d2-9e7b-466b-94b4-71c8d0524886" />
+**Key Observations:**
+- Most items cluster with **3–7 interactions** and ratings between **4.0 and 4.8**.
+- **Top-right corner** (high interactions, high rating) represents strongly trending items – e.g., Item 608 (7 interactions, 4.57 rating).
+- **Top-left corner** (few interactions but high rating) represents niche items that are well‑liked but not yet widely seen.
+- **Bottom-right** (many interactions but low rating) would indicate popular but disliked items – not observed in this snapshot.
+
+**Interpretation:**  
+The scatter plot reveals the relationship between popularity (interactions) and quality (rating). Most items in the stream are both reasonably popular and well‑rated. The absence of bottom‑right points suggests that the stream reflects genuine user preferences rather than spam or anomalous activity.
+
+
+---
+
+## Summary of Graph Findings
+
+| Graph | Purpose | Key Insight |
+|-------|---------|--------------|
+| **Top 10 Trending** | Identify highest `trending_score` items | Item 608 is the current hottest item |
+| **Rating vs. Interactions** | Understand relationship between popularity and satisfaction | Most items have 3–7 interactions and ratings 4.0–4.8 |
+| **Trending Score Over Time** | Track item momentum across windows | Score is responsive to activity bursts and declines |
 
 ---
 
 **Report prepared by:** Bosy Ayman - Rihanna Nasr
-**Student ID:** 202202076
+
+**Student ID:** 202202076 - 20220
+
 **Date:** 2026-05-8
 
 ---
