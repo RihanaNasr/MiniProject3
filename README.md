@@ -468,7 +468,6 @@ Batch ML Pipeline Completed Successfully!
 | Kafka `NoSuchMethodError` | Scala version mismatch (Kafka 3.6.0 needed Scala 2.13, system had 2.12) | Downgraded to Kafka 3.4.0 with Scala 2.12 |
 | `Failed to find data source: kafka` | Missing Spark SQL Kafka package | Used `spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.4.0` |
 | Streaming app showed no output | `startingOffsets="latest"` with producer finished earlier | Changed to `"earliest"` or restarted producer after streaming app |
-| IndentationError in `streaming_app.py` | Manual copy‑paste errors | Rewrote file with proper indentation |
 | Port conflicts (2181, 9092) | Hive/Zookeeper using default ports | Used ports 2182 (Zookeeper) and 9093 (Kafka) |
 
 ### 11.2 Key Lessons Learned
